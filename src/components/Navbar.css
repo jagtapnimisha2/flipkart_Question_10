@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+     margin-top: 16px;
+    margin-left: 120px;
+    margin-right: 120px;
+     
+     /* margin: 55px 130px 0 130px; */
+    justify-content: space-between;
+    text-align: center;
+}
+.para{
+    margin-top: -3px;
+    font-size: 16px;
+    font-weight: 500;
+}

@@ -1,0 +1,146 @@
+.headerr {
+  background-color: #2874f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 56px;
+}
+.headerr__firstt {
+  padding-right: -100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 120px;
+  margin-left: -100px;
+}
+.mainnn {
+  margin-bottom: 10px;
+}
+.headerr__firstt > img {
+  width: 30%;
+  margin-top: 8px;
+
+  object-fit: contain;
+}
+.header__second {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 3px;
+}
+.header__second > input {
+  border: none;
+  outline: none;
+  width: 30vw;
+  padding: 10px 15px;
+  border-radius: 3px;
+  margin-left: -130px;
+}
+.MuiSvgIcon-root {
+  color: blue;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.header__third > button {
+  border: none;
+  outline: none;
+  width: 9vw;
+  color: #2874f0;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 7px;
+}
+.header__fourth {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.header__fourth > span {
+  color: white;
+  font-weight: 600;
+}
+.header__fourth > .MuiSvgIcon-root {
+  margin-top: 10px;
+}
+.header__fifth {
+  display: flex;
+  align-items: center;
+  padding-right: 90px;
+  color: white;
+}
+.header__fifth > p {
+  display: flex;
+  color: white;
+  font-weight: 600;
+  align-items: center;
+  cursor: pointer;
+  gap: 8px;
+  font-size: 16px;
+}
+.header__fifth1>p
+ {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  color: white;
+  border: none;
+}
+
+.search-result-content {
+  min-width: 800px;
+  margin: 0 auto;
+}
+.search-resuls {
+  height: calc(100vh-160px);
+  overflow: auto;
+  margin: 20px 0;
+}
+.serach-result-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.img-container {
+  /* background-color: rgba(0, 0, 0, 0.05);
+  width: 60px;
+  height: 60px; */
+  /* flex-shrink: 0; */
+  margin-left: 240px;
+
+}
+
+
+
+.prod-deatils {
+  overflow: hidden;
+}
+.prod-deatils > .name {
+  text-overflow: ellipsis;
+  white-space: hidden;
+  overflow: hidden;
+  font-size: 16px;
+  line-height: 1;
+
+  margin-bottom: 10px;
+  font-weight: 600;
+  display: block;
+}
+.desc {
+  font-size: 14px;
+  line-height: 1;
+  display: block;
+  text-overflow: ellipsis;
+  white-space: hidden;
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+
+.aa{
+  text-decoration: none;
+  color: white;
+}

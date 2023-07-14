@@ -1,0 +1,58 @@
+/* @import "../../css-cinfig/mixins.scss"; */
+.products-container{
+    margin: 10px 0;
+    
+   
+}
+
+
+.sec-heading{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+        margin-bottom: -280px;
+    /* justify-content: space-end; */
+    display: flex;
+}
+/* .para{
+    font-size: 13px;
+    margin-top: 50px;
+    margin-left: -200px;
+    color: gray;
+    margin-bottom: 20px;
+} */
+.sec-heading > h6{
+    font-size: 20px;
+
+}
+.sec-heading > button{
+    
+    text-align: center;
+    height: -200px;
+    width: 90px;
+    height: 22px;
+    margin: 50px 0;
+    margin-left: 1250px;
+    
+}
+.products{
+    justify-content: space-between;
+    color: red;
+    margin-top: 260px;
+    display: flex;
+}
+/* @media screen and (min-width: 640px) {
+    .products-container{
+        margin: 50px 0;
+        
+    }
+    .sec-heading{
+        margin-bottom: 35px;
+        font-size: 240px;
+        background-color: blue;
+
+    
+    } 
+  } */
+
